@@ -32,6 +32,19 @@
 
 本项目采用 GNU 协议，详情请参阅 [LICENSE](https://github.com/TullyMonster/MendelRookie/blob/master/LICENSE)。
 
+## 常见问题及可能的解决方案
+
+### 获取 `FastTraitR` 和 `FastDownloader` 包
+
+用于去除混杂因素的 `FastTraitR` 和 `FastDownloader` 包由[医工科研](https://www.medicineitlab.com/)
+提供，详情参见：[`FastDownloader` 安装教程
+](https://flash0926.yuque.com/org-wiki-flash0926-kivyu0/otdnsb/tluzaguvye4t9l08)。
+
+|                  | Windows OS                                                         | Unix-like OS                                                                 |
+|------------------|--------------------------------------------------------------------|------------------------------------------------------------------------------|
+| `FastDownloader` | [FastDownloader-WindowsOS.zip](annex/FastDownloader-WindowsOS.zip) | [FastDownloader-Unix-likeOS.tar.gz](annex/FastDownloader-Unix-likeOS.tar.gz) |
+| `FastTraitR`     | `FastDownloader::install_pkg("FastTraitR")`                        | `FastDownloader::install_pkg("FastTraitR")`                                  |
+
 ## Session 信息
 
 <details>
