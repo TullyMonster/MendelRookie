@@ -45,6 +45,12 @@
 | `FastDownloader` | [FastDownloader-WindowsOS.zip](annex/FastDownloader-WindowsOS.zip) | [FastDownloader-Unix-likeOS.tar.gz](annex/FastDownloader-Unix-likeOS.tar.gz) |
 | `FastTraitR`     | `FastDownloader::install_pkg("FastTraitR")`                        | `FastDownloader::install_pkg("FastTraitR")`                                  |
 
+### PLINK 二进制程序安装
+
+`plinkbinr` 包已包含了适用于各个 OS 的 PLINK 二进制程序，于是项目**一般不再需要额外下载** PLINK 程序。
+
+但若要特殊指定 PLINK 程序的位置，可以前往 [PLINK 1.9 home](https://www.cog-genomics.org/plink/) 获取。
+
 ## Session 信息
 
 <details>
